@@ -38,5 +38,3 @@ def define_query(query):
     answer = generate_answer(query, content)
     return answer
 
-query = input("What do you want to know? \n")
-print("The answer is :", define_query(query))
